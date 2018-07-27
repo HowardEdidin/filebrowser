@@ -17,7 +17,7 @@ COPY --from=0 /go/bin/filebrowser /filebrowser
 
 VOLUME /tmp
 VOLUME /srv
-EXPOSE 80
+EXPOSE 87 88
 
 COPY Docker.json /config.json
 
